@@ -1,8 +1,8 @@
 module.exports = {
 
-    author: "@konstantinmuenster",
-    siteTitle: "Gatsby Starter Portfolio Minimal",
-    siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+    author: "@iliapetrowski",
+    siteTitle: "Frontend dev. CV",
+    siteShortTitle: "", // Used as logo text in header, footer, and splash screen
     siteDescription: "A modern one-page portfolio with a clean yet expressive design.",
     siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
     siteLanguage: "en_US",
@@ -20,34 +20,30 @@ module.exports = {
     socialMedia: [
         {
             name: "Linkedin",
-            url: "https://www.linkedin.com/in/konstantin-muenster/"
-        },
-        {
-            name: "Medium",
-            url: "https://medium.com/@konstantin.muenster"
+            url: "https://www.linkedin.com/in/iliapetrowski/"
         },
         {
             name: "Github",
-            url: "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal"
+            url: "https://github.com/iliapetrowski"
         },
         {
-            name: "Behance",
-            url: "https://www.behance.net/konstanmnster"
+            name: "Facebook",
+            url: "https://www.facebook.com/"
+        },
+        {
+            name: "Instagram",
+            url: "https://www.instagram.com/gonzowarfire/"
         },
     ],
   
     navLinks: {
         menu: [
             {
-                name: "Articles",
-                url: "/#articles",
-            },
-            {
-                name: "About Me",
+                name: "About me",
                 url: "/#about",
             },
             {
-                name: "Features",
+                name: "Projects",
                 url: "/#projects",
             },
         ],
