@@ -39,14 +39,14 @@ const StyledContentWrapper = styled(ContentWrapper)`
       @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
         flex-direction: row;
         align-items: center;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
       }
       .avatar {
         width: 100%;
         max-width: 8.75rem;
         border-radius: 50%;
         margin-right: 4rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
           margin-bottom: 0;
         }
@@ -79,6 +79,8 @@ const Contact = ({ content }) => {
           <Img className="avatar" fluid={frontmatter.profileImage.childImageSharp.fluid} />
           <div className="details">
             <strong>{frontmatter.name}</strong>
+            <br />
+            <a href="tel:+375447242918">+375 44 7242918</a>
             <br />
             <a href={`mailto:${frontmatter.email}`}>
               <Underlining color="secondary" hoverColor="secondary">

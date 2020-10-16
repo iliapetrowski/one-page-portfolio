@@ -38,16 +38,13 @@ module.exports = {
   
     navLinks: {
         menu: [
-            {
-                name: "Articles",
-                url: "/#articles",
-            },
+
             {
                 name: "About me",
                 url: "/#about",
             },
             {
-                name: "Features",
+                name: "Projects",
                 url: "/#projects",
             },
         ],
@@ -58,13 +55,6 @@ module.exports = {
     },
 
     footerLinks: [
-        {
-            name: "Privacy",
-            url: "/privacy"
-        },
-        {
-            name: "Imprint",
-            url: "/imprint"
-        }
+
     ]
 }
