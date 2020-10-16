@@ -39,11 +39,15 @@ module.exports = {
     navLinks: {
         menu: [
             {
+                name: "Articles",
+                url: "/#articles",
+            },
+            {
                 name: "About me",
                 url: "/#about",
             },
             {
-                name: "Projects",
+                name: "Features",
                 url: "/#projects",
             },
         ],

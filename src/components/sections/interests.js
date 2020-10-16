@@ -94,7 +94,7 @@ const StyledInterests = styled.div`
   }
 
   .interest {
-    width: 15.625rem;
+    width: 12.625rem;
     height: 3rem;
     display: flex;
     justify-content: flex-start;
@@ -169,7 +169,7 @@ const Interests = ({ content }) => {
                 textAlign="left"
                 color="primary"
               >
-                + Load more
+                + Soft skills
               </Button>
             </motion.div>
           )}
