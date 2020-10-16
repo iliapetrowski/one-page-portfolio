@@ -62,7 +62,7 @@ const StyledInterests = styled.div`
   &::after {
     content: "";
     width: ${({ itemCount }) =>
-      Math.ceil(itemCount / 2) % 2 === 1 ? "17.125rem" : "2.5rem"};
+  Math.ceil(itemCount / 2) % 2 === 1 ? "17.125rem" : "2.5rem"};
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
     grid-auto-flow: row;
@@ -84,7 +84,7 @@ const StyledInterests = styled.div`
     &::-webkit-scrollbar-thumb {
       border-radius: 8px;
       border: 0.2rem solid white;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(230,218,79,0.5);
     }
 
     &::-webkit-scrollbar-track {
