@@ -22,13 +22,13 @@ const StyledContentWrapper = styled(ContentWrapper)`
   && {
     width: 100%;
     height: 100%;
-    min-height: 60vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
     @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-      margin-bottom: 4rem;
+      margin-bottom: 2rem;
     }
     .greetings {
       display: flex;
@@ -55,7 +55,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       margin-top: -0.75rem;
     }
     .description {
-      font-size: 1.125rem;
+      font-size: 1.225rem;
       margin-bottom: 2rem;
     }
   }
@@ -126,7 +126,7 @@ const Hero = ({ content }) => {
           </div>
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 20 }} animate={sControls}>
-          <Social fontSize=".75rem" padding=".2rem 0.75rem" width="auto" />
+          <Social fontSize=".85rem" padding=".2rem 0.75rem" width="auto" />
         </motion.div>
       </StyledContentWrapper>
     </StyledSection>
